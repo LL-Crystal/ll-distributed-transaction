@@ -3,6 +3,10 @@
 ## Introduction
 A stateless distributed transaction solution.
 
+The core idea is to transform non-idempotent subtransations into idempotent ones, so that all subtransactions are idempotent. 
+Then, by leveraging client retries, the transaction can achieve eventual consistency.
+
+
 ## Overview
 - [Dependency](#dependency)
 - [Configuration](#configuration)
