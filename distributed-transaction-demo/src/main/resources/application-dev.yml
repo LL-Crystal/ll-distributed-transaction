@@ -1,0 +1,6 @@
+ll:
+  transaction:
+    MY_TRANSACTION_1:
+      - IDEMPOTENT_STEP1
+      - IDEMPOTENT_STEP2
+      - IDEMPOTENT_STEP3
